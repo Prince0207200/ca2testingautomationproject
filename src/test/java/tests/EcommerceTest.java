@@ -48,7 +48,7 @@ public class EcommerceTest extends BaseTest {
         cp.openCart();
     }
 
-    // 🟡 MEDIUM RISK
+    // 🟡 MEDIUM RISK 
     @Test(priority = 4, groups = {"medium"})
     public void searchTest() {
         SearchPage sp = new SearchPage(driver);
