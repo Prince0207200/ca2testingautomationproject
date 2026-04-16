@@ -11,7 +11,7 @@ public class BaseTest {
 
     protected WebDriver driver;
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setUp() {
 
         WebDriverManager.chromedriver().setup();
@@ -21,8 +21,10 @@ public class BaseTest {
         driver.get("https://demowebshop.tricentis.com/");
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown() {
-        driver.quit();
+        if (driver != null) {
+            driver.quit();
+        }
     }
 }
