@@ -1,0 +1,13 @@
+<suite name="FullSuite">
+    <test name="AllTests">
+        <groups>
+            <run>
+                <include name="high"/>
+                <include name="medium"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.EcommerceTest"/>
+        </classes>
+    </test>
+</suite>

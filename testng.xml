@@ -1,7 +1,0 @@
-<suite name="Suite">
-    <test name="EcommerceTest">
-        <classes>
-            <class name="tests.EcommerceTest"/>
-        </classes>
-    </test>
-</suite>

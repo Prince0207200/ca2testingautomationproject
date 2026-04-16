@@ -1,0 +1,12 @@
+<suite name="HighRiskSuite">
+    <test name="HighRiskTests">
+        <groups>
+            <run>
+                <include name="high"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.EcommerceTest"/>
+        </classes>
+    </test>
+</suite>
