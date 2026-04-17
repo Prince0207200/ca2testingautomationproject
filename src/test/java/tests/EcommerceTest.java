@@ -17,7 +17,7 @@ public class EcommerceTest extends BaseTest {
         lp.login("test@test.com", "123456");
     }
 
-    // 🔴 HIGH RISK
+    // 🔴 HIGH RISK hi
     @Test(priority = 2, groups = {"high"})
     public void checkoutTest() {
         LoginPage lp = new LoginPage(driver);
@@ -47,7 +47,7 @@ public class EcommerceTest extends BaseTest {
         cp.addToCart();
         cp.openCart();
     }
-
+// hhiii
     // 🟡 MEDIUM RISK 
     @Test(priority = 4, groups = {"medium"})
     public void searchTest() {
